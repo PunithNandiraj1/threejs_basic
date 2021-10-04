@@ -65,7 +65,7 @@ scene.background = spaceTexture;
 
 // Avatar
 
-const punithTexture = new THREE.TextureLoader().load('Punith.jpeg');
+const punithTexture = new THREE.TextureLoader().load('Punith.jpg');
 
 const punith = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: punithTexture }));
 
